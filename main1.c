@@ -4,7 +4,15 @@
 #include<conio.h>
 #include<string.h>
 
-int main()
+void main(void)
+{
+    int i = 0, j = 1, k = 2, m;
+    m = ++i && j-- || ++k;
+    printf("%d%d%d%d", i, j, k, m);
+}
+
+/*
+int main(void)
 {
     char a[6];
     strncpy(a, "web",3);
@@ -12,10 +20,10 @@ int main()
     printf("%d", strlen(a));
     return 0;
 }
-
+*/
 
 /*
-int main()
+int main(void)
 {
     FILE *fptr = fopen("file.txt","r");
     char x;
