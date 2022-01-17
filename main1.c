@@ -4,14 +4,6 @@
 #include<conio.h>
 #include<string.h>
 
-void main(void)
-{
-    int i = 0, j = 1, k = 2, m;
-    m = ++i && j-- || ++k;
-    printf("%d%d%d%d", i, j, k, m);
-}
-
-/*
 int main(void)
 {
     char a[6];
@@ -20,7 +12,6 @@ int main(void)
     printf("%d", strlen(a));
     return 0;
 }
-*/
 
 /*
 int main(void)
