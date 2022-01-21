@@ -6,12 +6,21 @@
 
 int main(void)
 {
+    int x;
+    printf("%d", x);
+    return 0;
+}
+
+/*
+int main(void)
+{
     char a[6];
     strncpy(a, "web",3);
     printf("%c\n%c\n%c\n",a[0], a[1],a[2]);
     printf("%d", strlen(a));
     return 0;
 }
+*/
 
 /*
 int main(void)
