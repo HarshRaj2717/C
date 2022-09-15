@@ -1,2 +1,2 @@
-# C-PVT1
+# Random-C-Codes
 For random programs made in C.
